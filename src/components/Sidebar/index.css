@@ -41,3 +41,8 @@
 .icon-sp {
   color: #ffffff;
 }
+@media screen and (max-width: 875px) {
+  .total-sidebar {
+    display: none;
+  }
+}

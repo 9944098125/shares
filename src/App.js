@@ -1,9 +1,12 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import UpperPart from "./components/UpperPart";
+import DonutChart from "./components/DonutChart";
+import Shares from "./components/Shares";
 import { TiArrowShuffle } from "react-icons/ti";
 import { AiOutlineFilter } from "react-icons/ai";
 import {
+  MdSettingsInputComponent,
   MdOutlineAlignVerticalBottom,
   MdOutlineMapsHomeWork,
   MdProductionQuantityLimits,
@@ -61,6 +64,18 @@ function App() {
               name={"Avg Facings / store"}
               description={"Here goes a line of text"}
             />
+          </div>
+          <div className="right-bottom">
+            <div className="head-row">
+              <MdSettingsInputComponent className="set-icon" />
+              <h3 className="shares-and-products-head">
+                Product Sharing Analysis
+              </h3>
+            </div>
+            <div className="shares-and-products">
+              <DonutChart />
+              <Shares />
+            </div>
           </div>
         </div>
       </div>
