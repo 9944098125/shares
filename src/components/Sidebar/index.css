@@ -1,0 +1,43 @@
+.total-sidebar {
+  width: 25vw;
+  padding: 10px;
+  background-color: rgba(34, 34, 245, 0.877);
+}
+.upper-part {
+  color: #ffffff;
+  font-size: 20px;
+}
+.categories {
+  background-color: rgb(136, 136, 255);
+  border-radius: 12px;
+  padding: 8px;
+}
+.category-number {
+  color: #ffffff;
+  font-size: 15px;
+}
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.side-heads {
+  font-size: 10.8px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: cursive;
+}
+.icon {
+  color: #ffffff;
+  margin-right: 6px;
+  margin-left: 3px;
+}
+.icon-row-special {
+  background-color: rgb(42, 42, 252);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.icon-sp {
+  color: #ffffff;
+}

@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.total-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-body {
+  background-color: rgb(240, 231, 194);
+  margin-top: -20px;
+}
+.up-part {
+  display: flex;
+  align-items: center;
+}
+.up-head {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: serif;
+}
+.icon-arrow {
+  margin-left: 40px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(53, 53, 196);
+  color: #ffffff;
+  border-radius: 45px;
+}
+.icon-big {
+  height: 50px;
+  width: 40px;
+}
+.stats {
+  display: flex;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filter {
+  background-color: #eecfcf;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  height: 20px;
+}
